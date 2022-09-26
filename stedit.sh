@@ -5,4 +5,4 @@
 # launch script to execute screen with startup functions
 # three windows refitted / titled
 
-screen -S "stedit" -c ${PWD}/stedit.screenrc
+screen -S "stedit" -c $(dirname "$BASH_SOURCE")/stedit.screenrc
