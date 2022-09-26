@@ -1,4 +1,4 @@
-## STEDIT
+# STEDIT
 
 Custom command line editor and performance monitor.
 Features include automatically opening a commandline interface with
@@ -22,9 +22,9 @@ Install script will also move vimrc in place
 
 Give permissions and execute ./stedit.sh
 
-## USEFUL CONTROLS
+# USEFUL CONTROLS
 
-###To navigate screens use GNU Screen manual
+##To navigate screens use GNU Screen manual
 
 - CTRL+a and tab to switch between screens
 - CTRL+a and a to cycle between screens
@@ -35,7 +35,7 @@ Give permissions and execute ./stedit.sh
 - screen -r stedit to reattach
 - CTRL+k to kill screen sessions
 
-###Vim NERDTree
+##Vim NERDTree
 
 - ? at NERDTree window to display help
 - CTRL+w and w switches between vim windows
