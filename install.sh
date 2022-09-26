@@ -14,4 +14,4 @@ cd ~/.vim/pack/themes/start
 git clone https://github.com/tomasiser/vim-code-dark
 
 # move this vimrc to ~/.vim/vimrc
-cp vimrc ~/.vim
+cp vimrc ~/.vim/
