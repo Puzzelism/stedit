@@ -1,10 +1,11 @@
 # STEDIT
 
-Custom command line editor and performance monitor.
+Cobbled together command line editor and performance monitor.
+
 Features include automatically opening a commandline interface with
 GNU Screen
-    -> one window for vim editing
-    -> one window with htop for monitoring
+    -> one window for vim editing with NERDTree and vs code esque dark theme
+    -> one window with htop for monitoring (if htop not installed will be blank, configurable in screenrc
     -> one window for command line
 
 ## INSTALL
@@ -24,7 +25,7 @@ Give permissions and execute ./stedit.sh
 
 # USEFUL CONTROLS
 
-## To navigate screens use GNU Screen manual
+## To navigate screens
 
 - CTRL+a and tab to switch between screens
 - CTRL+a and a to cycle between screens
@@ -34,6 +35,9 @@ Give permissions and execute ./stedit.sh
 - CTRL+d to detach
 - screen -r stedit to reattach
 - CTRL+k to kill screen sessions
+- CTRL+a Q to kill all splits and return to one
+
+- For more information 'man screen'
 
 ## Vim NERDTree
 

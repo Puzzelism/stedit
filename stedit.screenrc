@@ -50,7 +50,7 @@ split
 focus down
 
 # Resize
-resize 20
+resize 15
 
 # create bash screen
 screen
